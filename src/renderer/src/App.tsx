@@ -1,12 +1,20 @@
-import { ActionButtonsRow, Content, FloatingNoteTitle, MarkdownEditor, NotePreviewList, RootLayout, Sidebar } from "@/components"
-import { useRef } from "react"
+import { ActionButtonsRow, Content, FloatingNoteTitle, HomePage, MarkdownEditor, NotePreviewList, RootLayout, Sidebar } from "@/components"
+import { useRef, useState } from "react"
 
 function App() {
-
+  const [showHomePage, setShowHomePage] = useState(true)
   const contentContainerRef = useRef<HTMLDivElement>(null)
 
   const resetScroll = () => {
     contentContainerRef.current?.scrollTo(0, 0)
+  }
+
+  const handleGetStarted = () => {
+    setShowHomePage(false)
+  }
+
+  if (showHomePage) {
+    return <HomePage onGetStarted={handleGetStarted} />
   }
 
   return (
