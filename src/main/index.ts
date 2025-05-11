@@ -16,12 +16,11 @@ function createWindow(): BrowserWindow {
     autoHideMenuBar: true,
     ...(process.platform === 'linux' ? { icon } : {}),
     center: true,
-    title: 'Note Mark',
+    title: 'Yalla Learn',
     vibrancy: 'under-window', // Only for macOS
     visualEffectState: 'active', // Only for macOS
     backgroundMaterial: 'acrylic', // for Windows
-    // titleBarStyle: 'hidden', // for macOS
-    // trafficLightPosition: { x: 15, y: 15 }, // for macOS
+    trafficLightPosition: { x: 15, y: 15 }, // for macOS
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),
       sandbox: true,
