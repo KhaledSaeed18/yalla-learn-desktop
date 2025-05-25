@@ -39,6 +39,19 @@ YallaLearn Desktop is a sleek, modern note-taking application that empowers user
 - 🔧 **Extensible**: Modular architecture for easy feature additions
 - 📱 **Responsive**: Adaptive UI that works on different screen sizes
 
+## 🔽 Downloads
+
+### Latest Release (v1.0.0)
+
+Get YallaLearn Desktop for your platform:
+
+| Platform | Download |
+|----------|----------|
+| **Windows** | [📥 yalla-learn-1.0.0-setup.exe](https://github.com/KhaledSaeed18/yalla-learn-desktop/releases/download/v1.0.0/yalla-learn-1.0.0-setup.exe) |
+| **macOS** | [📥 yalla-learn-1.0.0.dmg](https://github.com/KhaledSaeed18/yalla-learn-desktop/releases/download/v1.0.0/yalla-learn-1.0.0.dmg) |
+
+> **Note**: Linux users can build from source using the instructions below.
+
 ## 🚀 Installation
 
 ### Prerequisites
